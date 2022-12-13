@@ -1,0 +1,37 @@
+.cardCookie {
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+    z-index: 999;
+    background-color: #1d1a2abd;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    width: 35%;
+}
+
+.cardCookie>p>a {
+    font-weight: bolder;
+}
+
+.tituloCookie {
+    font-weight: bold;
+    color: #408ab4;
+}
+
+.botaoCookie {
+    background-color: #63bb6d;
+    padding: 0.5rem;
+    border-radius: 10px;
+    max-width: 35%;
+    font-size: small;
+}
+
+@media (max-width: 800px) {
+    .cardCookie {
+        background-color: #1d1a2ae3;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+}

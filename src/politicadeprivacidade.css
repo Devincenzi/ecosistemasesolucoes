@@ -1,0 +1,16 @@
+.fundo {
+    background: #ddd;
+}
+
+.fundo>h1,
+.fundo>h2,
+.fundo>h3,
+.fundo>h4,
+.fundo>h5,
+.fundo>h6 {
+    color: #29253c;
+}
+
+.texto {
+    color: #6A6A7A;
+}

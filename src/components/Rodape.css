@@ -1,0 +1,133 @@
+.rodape {
+    padding: 45px 45px 0 45px;
+    height: 50vh;
+    font-size: medium;
+    font-weight: 500;
+}
+
+@media (max-width: 420px) {
+    .rodape {
+        padding: 30px 15px 0 15px;
+        font-size: 0.875rem;
+    }
+}
+
+.botaoRodape {
+    border: none;
+    font-family: 'Lato';
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 35px 30px 15px 30px;
+    width: 70%;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    font-weight: 600;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.botaoRodape>.icon-send {
+    padding: 0 1rem 0 1rem;
+}
+
+.botaoRodape>.texto {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+@media (max-width: 780px) {
+    .rodape>.grande {
+        display: none !important;
+    }
+    .rodape>.pequeno {
+        display: flex !important;
+    }
+}
+
+@media (min-width: 780px) {
+    .rodape>.grande {
+        display: flex !important;
+    }
+    .rodape>.pequeno {
+        display: none !important;
+    }
+}
+
+.botaoRodape:after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.icon-send {
+    background: rgba(0, 0, 0, 0.15);
+}
+
+
+/* Pseudo elements for icons */
+
+.botaoRodape:before {
+    font-family: 'FontAwesome';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+/* .btn-sep {
+    padding: 25px 60px 25px 120px;
+} */
+
+.btn-4 {
+    background: #34495e;
+    color: #fff;
+}
+
+.btn-4:hover {
+    background: #2c3e50;
+}
+
+.btn-4:active {
+    background: #2c3e50;
+    top: 2px;
+}
+
+@media (max-width: 780px) {
+    .botaoRodape {
+        margin: 20px;
+    }
+    .botaoRodape>.icon-send {
+        padding: 0 10px;
+    }
+    .botaoRodape>.texto {
+        padding: 10px 0;
+    }
+}
+
+.textoAzulClaro {
+    color: #5aafd3;
+}
+
+.textoLaranja {
+    color: #eb5f2e
+}
+
+.rodapeText {
+    color: #29253c;
+    /* background: linear-gradient(to right, #000, #fff);
+    background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}

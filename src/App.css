@@ -1,0 +1,70 @@
+.myVideo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: 0;
+}
+
+@media (min-width: 770px) {
+    .logoVideo {
+        padding: 3rem;
+    }
+}
+
+.row:nth-child(odd):not(:nth-child(1)) {
+    background-color: #ddd;
+}
+
+.row:nth-child(even) {
+    background-color: #fafafa;
+}
+
+.row:nth-child(odd)>.fundoCard {
+    background-color: #fafafa;
+}
+
+.row:nth-child(even)>.fundoCard {
+    background-color: #ddd;
+}
+
+.fundoCard {
+    /* background: #ced3d22e; */
+}
+
+.fundoAzul {
+    background-color: #1d1a2abd;
+}
+
+.textoTitulo {
+    color: #eb5f2e;
+}
+
+.textoAdjacente {
+    color: #6A6A7A;
+    font-weight: bolder;
+}
+
+.textoCard {
+    color: #6A6A7A;
+}
+
+.textoTituloCard {
+    color: #29253c;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+
+.justify-text {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.divisor {
+    border: 2px solid #0000002c;
+    border-radius: 100%;
+}
